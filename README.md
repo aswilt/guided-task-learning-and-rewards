@@ -93,3 +93,19 @@ For a detailed diagram and component interactions, see `docs/architecture-overvi
 This repository is **conceptual** and intended to demonstrate architecture and product thinking, not to run end-to-end.  
 
 You can explore the backend stubs in `src/backend`:
+cd src/backend
+python3 engine.py
+
+These files simulate system interactions and illustrate modular design, API integration, and rules-based workflow orchestration.
+
+---
+
+## Purpose and TPM Focus
+
+This project demonstrates:
+
+- System design and architectural thinking relevant to technical product management  
+- Translating business requirements into modular, scalable technical specifications  
+- Designing safe integrations with external systems through API-driven stubs  
+- Collaboration with engineering teams by providing conceptual code and architecture guidance  
+- Ability to articulate complex technical concepts clearly in documentation for stakeholders
