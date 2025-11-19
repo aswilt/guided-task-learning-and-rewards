@@ -41,25 +41,40 @@ The architecture is modular and intended to simulate how a modern workflow guida
 - Event-driven logic designed for scalability.
 
 ---
+```
+guided-task-learning-and-rewards/  
+    README.md  
+    CONTRIBUTIONS.md  
+    docs/  
+        architecture-overview.md  
+        pm-case-study.md  
+        (placeholder diagrams)  
+    src/  
+        backend/  
+            engine.py  
+            rules_engine.py  
+            task_service.py  
+            reward_service.py  
+        frontend/  
+            example_component.jsx  
+            ui_states.md  
+        integrations/  
+            learning_api_stub.py  
+            workflow_api_stub.py  
+```
+---
 
-## Repository Structure
-guided-task-learning-and-rewards/
-│
-├── README.md
-├── CONTRIBUTIONS.md
-├── docs/
-│ ├── architecture-overview.md
-│ ├── pm-case-study.md
-│ └── (placeholder diagrams)
-├── src/
-│ ├── backend/
-│ │ ├── engine.py
-│ │ ├── rules_engine.py
-│ │ ├── task_service.py
-│ │ └── reward_service.py
-│ ├── frontend/
-│ │ ├── example_component.jsx
-│ │ └── ui_states.md
-│ └── integrations/
-│ ├── learning_api_stub.py
-│ └── workflow_api_stub.py
+## Architecture Summary
+
+The system consists of four main components:
+
+- **Task Guidance Engine**: Manages tasks, steps, progression, and user state  
+- **Learning Module**: Stores and delivers contextual learning content  
+- **Reward Engine**: Issues points and recognition based on defined rules  
+- **Rules Engine**: Determines workflow mappings, triggers, and reward logic  
+
+---
+
+## Using This Repository
+
+This repository is conceptual and is not intended to run end-to-end. The Python files in `src/backend` simulate how the underlying services interact. You may run the stubs in isolation for demonstration or architectural discussion:
