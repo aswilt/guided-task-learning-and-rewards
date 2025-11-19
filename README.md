@@ -68,7 +68,8 @@ guided-task-learning-and-rewards/
             reward_service.py  
         frontend/  
             example_component.jsx  
-            ui_states.md  
+            ui_states.md
+            ui_interactions.md  
         integrations/  
             learning_api_stub.py  
             workflow_api_stub.py  
