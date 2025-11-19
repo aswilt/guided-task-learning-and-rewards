@@ -1,18 +1,43 @@
 # Architecture Overview
 
-## Components
+## Purpose
 
-1. **Task Guidance Engine**: Manages multi-step workflows, tracks progress, supports branching  
-2. **Learning Module**: Delivers contextual micro-learning content; API-driven integration  
-3. **Reward Engine**: Configurable points, streaks, and milestone rewards  
-4. **Rules Engine**: Governs task-to-reward relationships, modular design
+This document outlines the conceptual architecture of the Guided Task Learning and Rewards system, demonstrating a Technical Product Manager perspective. The system is designed to improve task completion, learning adoption, and engagement in HR, finance, and operational workflows.
 
-## Integration Pattern
+---
 
-- Stub APIs simulate external system interactions
-- Event-driven, decoupled design for scalability
+## Core Components
 
-## TPM Notes
+1. **Task Guidance Engine**  
+   - Manages multi-step workflows and tracks progress  
+   - Provides step-by-step guidance to users  
+   - Supports branching logic based on user actions
 
-- Shows translation of business needs into technical architecture
-- Enables engineering teams to implement a scalable system
+2. **Learning Module**  
+   - Delivers contextual, embedded micro-learning content  
+   - Can integrate with external learning platforms via APIs  
+   - Tracks completion of learning for rewards
+
+3. **Reward Engine**  
+   - Calculates points and milestones based on completed tasks and learning  
+   - Configurable by administrators to emphasize urgent actions or priority workflows
+
+4. **Rules Engine**  
+   - Governs reward allocation and eligibility  
+   - Modular design allows flexible reward logic and business rules
+
+---
+
+## System Integration
+
+- External APIs are stubbed to simulate integrations with learning and workflow platforms  
+- Event-driven architecture enables decoupled communication between components  
+- Admins can configure reward pathways, set deadlines, and monitor progress  
+
+---
+
+## TPM Perspective
+
+- Demonstrates translating business requirements into a scalable, modular architecture  
+- Provides clear blueprint for engineering implementation  
+- Shows planning for future extensibility and integration without exposing sensitive data
