@@ -44,22 +44,22 @@ The architecture is modular and intended to simulate how a modern workflow guida
 
 ## Repository Structure
 guided-task-learning-and-rewards/
-
-  README.md
-  CONTRIBUTIONS.md
-  docs/
-    architecture-overview.md
-    pm-case-study.md
-      (placeholder diagrams)
-  src/
-    backend/
-      engine.py
-      rules_engine.py
-      task_service.py
-      eward_service.py
-    frontend/
-      example_component.jsx
-      ui_states.md
-    integrations/
-    learning_api_stub.py
-    workflow_api_stub.py
+│
+├── README.md
+├── CONTRIBUTIONS.md
+├── docs/
+│ ├── architecture-overview.md
+│ ├── pm-case-study.md
+│ └── (placeholder diagrams)
+├── src/
+│ ├── backend/
+│ │ ├── engine.py
+│ │ ├── rules_engine.py
+│ │ ├── task_service.py
+│ │ └── reward_service.py
+│ ├── frontend/
+│ │ ├── example_component.jsx
+│ │ └── ui_states.md
+│ └── integrations/
+│ ├── learning_api_stub.py
+│ └── workflow_api_stub.py
